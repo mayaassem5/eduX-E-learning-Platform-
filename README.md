@@ -35,13 +35,13 @@ We designed a relational database using SQL Server that ensures reliable storage
 
 ## Phase 2: Python Programming
 **o Python Programming :**
-1- Data Load using SQL alchemy
-2- Data Cleaning:
+1. Data Load using SQL alchemy
+2. Data Cleaning:
   - Checking Null Values in fact table.
   - table ‘ProgressStatus’ has 48 Null values.
   - replacing null values for status with ‘Not Started’.
-3- EDA
-4- extracting SQL queries for Future ML Phase:
+3. EDA
+4. extracting SQL queries for Future ML Phase:
   - User Progress Summary
   - Quiz Performance Analysis
   - Assignment Completion and Due Date Monitoring
@@ -51,9 +51,9 @@ We designed a relational database using SQL Server that ensures reliable storage
 ---
 
 ## Phase 3: Data Science
-1- Data Analysis
-2- Churn Analysis
-3- ML Model:
+1. Data Analysis
+2. Churn Analysis
+3. ML Model:
   1- Churn Prediction Features
   2- Applied Models:
      - Logistic Regression Classifier
