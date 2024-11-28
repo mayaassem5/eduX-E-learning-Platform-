@@ -54,8 +54,8 @@ We designed a relational database using SQL Server that ensures reliable storage
 1. Data Analysis
 2. Churn Analysis
 3. ML Model:
-  1- Churn Prediction Features
-  2- Applied Models:
+  1. Churn Prediction Features
+  2. Applied Models:
      - Logistic Regression Classifier
      - Random Forest Classifier
      - XG-Boost
