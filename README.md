@@ -29,11 +29,13 @@ We designed a relational database using SQL Server that ensures reliable storage
   **- Business Schema:**
     Our data warehouse follows a dimensional model with fact tables (such as FactUserProgress) that record customer actions and dimension tables (e.g., DimUsers,  DimCourse, DimLesson) that provide detailed descriptions of each customer, course, or interaction so that we can apply CHURN analysis on it.
 
-## Phase 2: ETL
+## Phase 2: population
 **ETL Process with SSIS :**
   We designed and implemented an ETL (Extract, Transform, Load) process using SQL Server Integration Services (SSIS). This allowed us to extract data from the operational database and transform it into meaningful structures for analysis in the data warehouse.
 
-## Phase 2: Python Programming
+---
+
+## Phase 3: Python Programming
 **o Python Programming :**
 1. Data Load using SQL alchemy
 2. Data Cleaning:
@@ -48,7 +50,6 @@ We designed a relational database using SQL Server that ensures reliable storage
   - Certificate Issuance Rates
   - Evaluation Score Distribution
   - User Engagement Insights
----
 
 ## Phase 3: Data Science
 1. Data Analysis
@@ -61,7 +62,7 @@ We designed a relational database using SQL Server that ensures reliable storage
      - XG-Boost
 
 ---
-## Phase 4: Deployment
+## Phase 3: Deployment
 o Inserting Data Manually :
 ![image](https://github.com/user-attachments/assets/f794fa72-8a7e-43a9-96d3-3060c3300995)
 
