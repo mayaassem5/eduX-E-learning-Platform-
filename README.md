@@ -23,10 +23,10 @@ We designed a relational database using SQL Server that ensures reliable storage
 
 ## Phase 2: Data Warehousing 
 **Data Warehouse Implementation :**
-  - Bus matrix
+  **- Bus matrix**
     To identify business processes and turn them into Data Marts.
 
-  - Business Schema:
+  **- Business Schema:**
     Our data warehouse follows a dimensional model with fact tables (such as FactUserProgress) that record customer actions and dimension tables (e.g., DimUsers,  DimCourse, DimLesson) that provide detailed descriptions of each customer, course, or interaction so that we can apply CHURN analysis on it.
 
 ## Phase 2: ETL
